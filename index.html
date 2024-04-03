@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Stacy :) </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e64747;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .love-message {
+            font-style: italic;
+            color: #c62828;
+            /* Red color */
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #888;
+        }
+
+        .love-button {
+            background-color: #ee0927;
+            /* Red */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition-duration: 0.4s;
+        }
+
+        .love-button:hover {
+            background-color: #a70435;
+            /* Red */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>To Stacy,</h1>
+        <p>You are incredibly beautiful, both inside and out. Your kindness, intelligence, and grace light up every room
+            you enter. I just wanted to take a moment to tell you how much you mean to me.</p>
+        <p>Stacy, I love you more than words can express. You fill my life with joy, laughter, and endless happiness.
+            You are my everything, and I am so grateful to have you by my side.</p>
+        <p>Always remember, you are loved, cherished, and admired beyond measure.</p>
+        <p class="love-message" id="loveMessage"></p>
+        <button class="love-button" onclick="clickMeMessage()"> Click Me :) 
+    </div>
+
+    <script>
+        function clickMeMessage() {
+            var loveMessage = document.getElementById("loveMessage");
+            loveMessage.innerHTML = "I love you, Stacy so proud of you:) .";
+        }
+    </script>
+</body>
+
+</html>
